@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <title>Assinatura</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/main.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="signature">
+      <div class="signature--header">
+        <p class="lead text-center">Assine abaixo para iniciarmos o processo da sua transferência.</p>
+      </div>
+      <div class="signature--body">
+        <canvas></canvas>
+      </div>
+      <div class="signature--footer">
+        <p class="text-center">Roberto Manaia dos Santos Junior Roberto Manaia dos Santos Junior Roberto Manaia dos Santos Junior Roberto Manaia dos Santos Junior Roberto Manaia dos Santos Junior Roberto Manaia dos Santos Junior (CPF: 000.000.000-00)</p>
+        <button type="button" class="btn btn-primary" data-action="send">
+          <span data-feather="send" aria-hidden="true"></span>
+          Enviar
+        </button>
+        <button type="button" class="btn btn-secondary clear" data-action="clear">
+          <span data-feather="trash" aria-hidden="true"></span>
+          Limpar
+        </button>
+        <button type="button" class="btn btn-light" data-action="undo">
+          <span data-feather="corner-up-left" aria-hidden="true"></span>
+          Desfazer
+        </button>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="http://szimek.github.io/signature_pad/js/signature_pad.umd.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/feather-icons"></script>
+  <script type="text/javascript" src="assets/main.js"></script>
+</body>
+</html>
